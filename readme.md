@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/ZitRos/timingkit-community/master/misc/logo.png" width="64" align="right"/>
+
 # [TimingKit](https://timingkit.tk) Community
 
 A public repository for [TimingKit](https://timingkit.tk) service community. Discuss, propose and express your thoughts here!
