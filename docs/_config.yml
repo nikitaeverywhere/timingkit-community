@@ -1,12 +1,11 @@
-title: TimingKit - Calendar Time Analysis Service
+title: <img style="width:64px" src="https://timingkit.tk/img/tk-logo.png"/> TimingKit
 email: support@timingkit.tk
 description: >
-  TimingKit is a young service about time analysis. Build dashboards and
-  share them with your coworkers, boss or anyone else! More and more features
-  are about to come!
+  Analyze time with dashboards and share them with your coworkers, boss or anyone else!
 baseurl: ""
 url: ""
+github.is_user_page: false
 github.is_project_page: false
-github.show_downloads: false
+show_downloads: false
 
 theme: jekyll-theme-architect
