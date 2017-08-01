@@ -6,8 +6,7 @@ description: >
   are about to come!
 baseurl: ""
 url: ""
-github:
-  is_project_page: false
-  show_downloads: false
+github.is_project_page: false
+github.show_downloads: false
 
 theme: jekyll-theme-architect
