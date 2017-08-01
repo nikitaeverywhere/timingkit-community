@@ -5,4 +5,4 @@
 layout: default
 ---
 
-test
+Go to [TimingKit](https://timingkit.tk)!
