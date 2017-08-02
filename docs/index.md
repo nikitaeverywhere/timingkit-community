@@ -1,7 +1,7 @@
 ---
 layout: default
 published: true
-title: TimingKit
+title: Main
 ---
 
 # [TimingKit](https://timingkit.tk) Community Website

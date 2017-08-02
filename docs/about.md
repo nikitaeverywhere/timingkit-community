@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: default
+published: true
 title: About
-permalink: /about/
 ---
 
-TimingKit Service about page.
+# About
+
+Please, visit [TimingKit](https://timingkit.tk/info) or [@TheTimingKit](https://twitter.com/thetimingkit) for more information.
