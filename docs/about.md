@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: page
 published: true
 title: About
 ---
 
 # About
 
-Please, visit [TimingKit](https://timingkit.tk/info) or [@TheTimingKit](https://twitter.com/thetimingkit) for more information.
+Please, visit [TimingKit](https://timingkit.tk/info){:target="_blank"} or [@TheTimingKit](https://twitter.com/thetimingkit){:target="_blank"} for more information.
