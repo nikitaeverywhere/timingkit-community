@@ -1,3 +1,9 @@
+---
+layout: default
+published: true
+title: TimingKit Development Roadmap
+---
+
 # [TimingKit](https://timingkit.tk) Development Roadmap
 
 This document describes the current state of the service development and the closest list of features to be implemented.

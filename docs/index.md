@@ -1,3 +1,9 @@
+---
+layout: default
+published: true
+title: TimingKit
+---
+
 # [TimingKit](https://timingkit.tk) Community Website
 
 <img src="https://raw.githubusercontent.com/ZitRos/timingkit-community/master/misc/logo.png" width="64" align="right"/>
