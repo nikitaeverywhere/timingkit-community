@@ -6,5 +6,10 @@ description: >
   are about to come!
 baseurl: ""
 url: ""
+repository: ZitRos/timingkit-community
+service_name: TimingKit
+service_url: https://timingkit.tk
+author_name: Nikita Savchenko
+author_url: https://nikita.tk
 
 theme: jekyll-theme-cayman
