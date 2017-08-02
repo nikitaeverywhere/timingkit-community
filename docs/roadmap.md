@@ -1,4 +1,4 @@
-# Welcome to the [TimingKit](https://timingkit.tk) Development Roadmap!
+# [TimingKit](https://timingkit.tk) Development Roadmap
 
 This document describes the current state of the service development and the closest list of features to be implemented.
 The most top-aligned items in the list below are the most prioritized to develop and are about to appear soon!

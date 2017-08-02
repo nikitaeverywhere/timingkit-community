@@ -17,6 +17,10 @@
       <a href="{{ site.service_url }}" class="btn">Go To {{ site.service_name }}</a>
     </section>
 
+	<section class="page-navigation">
+	{% include navigation.html context="[top-level-path]" %}
+	</section>
+	
     <section class="main-content">
       {{ content }}
 

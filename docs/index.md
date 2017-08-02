@@ -6,7 +6,7 @@ This is the information page for the [TimingKit](https://timingkit.tk) service.
 Here You Can
 ------------
 
-+ [View the project's roadmap](roadmap.md) and discuss what is important for you to be done at first;
++ [View the project's roadmap](roadmap) and discuss what is important for you to be done at first;
 + Visit [a public repository](https://github.com/ZitRos/timingkit-community) of [TimingKit](https://timingkit.tk) service. Discuss, propose and express your thoughts there!
 + [Create a new discussion](https://github.com/ZitRos/timingkit-community/issues) (GitHub issue) to report a bug, suggest an improvement or freely discuss anything related to the TimingKit.
 
