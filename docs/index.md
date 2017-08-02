@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Main
+permalink: /
 ---
 
 # [TimingKit](https://timingkit.tk){:target="_blank"} Community Website
