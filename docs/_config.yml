@@ -1,9 +1,7 @@
-title: TimingKit - Calendar Time Analysis Service
+title: <img style="width:64px" src="https://timingkit.tk/img/tk-logo.png"/> TimingKit
 email: support@timingkit.tk
 description: >
-  TimingKit is a young service about time analysis. Build dashboards and
-  share them with your coworkers, boss or anyone else! More and more features
-  are about to come!
+  Analyze time with dashboards and share them with your coworkers, boss or anyone else!
 baseurl: ""
 url: ""
 repository: ZitRos/timingkit-community
@@ -12,4 +10,4 @@ service_url: https://timingkit.tk
 author_name: Nikita Savchenko
 author_url: https://nikita.tk
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
