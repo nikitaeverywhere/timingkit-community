@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TimingKit Development Roadmap
-permalink: /roadmap
+permalink: /roadmap/
 ---
 
 # [TimingKit](https://timingkit.tk){:target="_blank"} Development Roadmap
