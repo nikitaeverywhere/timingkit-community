@@ -30,7 +30,11 @@
             <li class="{% if page.url contains entry.url %}active{% endif %}">
                 {% capture subMenu %}{% include navigation.html context=entry.url %}{% endcapture %}
                 {% if subMenu.size > 0 %}
-                    <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+                    {% if page.url == entry.url %}
+						<a class="active" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+					{% else %}
+						<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+					{% endif %}
                 {% endif %}
                 {% unless subMenu.size > 0 %}
                     {% comment %} 
@@ -40,7 +44,11 @@
                         If not, just remove the unless entirely and remove the if/endif around the <a>
                         above.
                     {% endcomment %}
-                    <a class="make-the-internal-a-tag-inline-block-and-100%w/h" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+					{% if page.url == entry.url %}
+						<a class="active" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+					{% else %}
+						<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+					{% endif %}
                 {% endunless %}
                 {{ subMenu }}
             </li>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TimingKit Development Roadmap
+title: Development Roadmap
 permalink: /roadmap/
 ---
 
