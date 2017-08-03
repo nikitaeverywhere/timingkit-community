@@ -13,7 +13,7 @@ Want to change or propose something? Go to [describe your idea here](https://git
 Development Roadmap
 -------------------
 
-+ Make area chart widget draw values relative to each other on X axis
++ Create a default option for pivot tables to show empty groups (dimensions). This will also make area chart widget to draw values relative to each other on the axes
 + Add ability to floor relative dates to month (year) beginning
 + Add ability to sort values in table by columns/rows
 + Add ability to format values in table, universal formatting language
