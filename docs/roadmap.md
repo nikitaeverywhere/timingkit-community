@@ -13,18 +13,24 @@ Want to change or propose something? Go to [describe your idea here](https://git
 Development Roadmap
 -------------------
 
-+ Create a default option for pivot tables to show empty groups (dimensions). This will also make area chart widget to draw values relative to each other on the axes
++ Distinguish time zones for different users according to their browser setup. There also should be an option to fix the time zone for specific dashboard. Currently the time zone is fixed to Ukraine (GMT+2).
++ Create a logical value for pivot table rows/columns (primarily for charts). Charts should draw on axes by logical value but not by index, which works only for some cases.
+   + Some dimensions, like week number of the year may have, for example, Week 1 at the end of the year, which is correct, but leads to unexpected drawings while drawing charts due to Week 1 is being sorted to the beginning.
+   + When many of the rows are empty and some groups are skipped due to no events appear in there, charts axes scales may be different and not consistent. This should also be an option.
 + Add ability to floor relative dates to month (year) beginning
 + Add ability to sort values in table by columns/rows
 + Add ability to format values in table, universal formatting language
 + Add a Bar Chart widget type
-+ Add Week dimension in addition to Day, Month and Year
-+ Add Weekday dimension in addition to Day, Month and Year
-+ Timeline page: a page for viewing and recording time 
 
 Development History
 -------------------
 
++ [8/18/2017] Timeline page: a page for viewing, managing and recording time
+    + [8/17/2017] Selecting and editing events
+    + [8/15/2017] Scrollable timeline
+    + [8/13/2017] Recording multiple events (basics)
++ [8/18/2017] Add Weekday dimension in addition to Day, Month and Year (by [Natalie](https://github.com/NatalieTr))
++ [8/16/2017] Add Week dimension in addition to Day, Month and Year (by [Natalie](https://github.com/NatalieTr))
 + [8/3/2017] Extend demo Work calendar with labels and add 2 more widgets to demonstrate them.
 + [8/2/2017] Set up Git pages on [community.timingkit.tk](http://community.timingkit.tk).
 + [8/2/2017] Add "overlapping events" option. Prioritize short events.
