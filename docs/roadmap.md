@@ -13,7 +13,7 @@ Want to change or propose something? Go to [describe your idea here](https://git
 Development Roadmap
 -------------------
 
-+ Distinguish time zones for different users according to their browser setup. There also should be an option to fix the time zone for specific dashboard. Currently the time zone is fixed to Ukraine (GMT+2).
++ Add ability to create/edit/delete calendars
 + Create a logical value for pivot table rows/columns (primarily for charts). Charts should draw on axes by logical value but not by index, which works only for some cases.
    + Some dimensions, like week number of the year may have, for example, Week 1 at the end of the year, which is correct, but leads to unexpected drawings while drawing charts due to Week 1 is being sorted to the beginning.
    + When many of the rows are empty and some groups are skipped due to no events appear in there, charts axes scales may be different and not consistent. This should also be an option.
@@ -25,6 +25,8 @@ Development Roadmap
 Development History
 -------------------
 
++ [8/29/2017] Parallel dashboard rendering, clustering.
++ [8/29/2017] Distinguish time zones for different users according to their browser setup. Add an option to fix the time zone for the specific dashboard.
 + [8/18/2017] Timeline page: a page for viewing, managing and recording time
     + [8/17/2017] Selecting and editing events
     + [8/15/2017] Scrollable timeline
