@@ -13,7 +13,6 @@ Want to change or propose something? Go to [describe your idea here](https://git
 Development Roadmap
 -------------------
 
-+ Redefine the timeline in Chronology tab to always show the first column in -24 hours to the second one.
 + Add ability to create/edit/delete calendars
 + Create a logical value for pivot table rows/columns (primarily for charts). Charts should draw on axes by logical value but not by index, which works only for some cases.
    + Some dimensions, like week number of the year may have, for example, Week 1 at the end of the year, which is correct, but leads to unexpected drawings while drawing charts due to Week 1 is being sorted to the beginning.
@@ -22,10 +21,12 @@ Development Roadmap
 + Add ability to sort values in table by columns/rows
 + Add ability to format values in table, universal formatting language
 + Add a Bar Chart widget type
++ Add a Line Chart widget type
 
 Development History
 -------------------
 
++ [9/22/2017] Redefine the timeline in Chronology tab to always show the first column in -24 hours to the second one.
 + [8/29/2017] Parallel dashboard rendering, clustering.
 + [8/29/2017] Distinguish time zones for different users according to their browser setup. Add an option to fix the time zone for the specific dashboard.
 + [8/18/2017] Timeline page: a page for viewing, managing and recording time
