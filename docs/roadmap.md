@@ -21,11 +21,11 @@ Development Roadmap
 + Add ability to sort values in table by columns/rows
 + Add ability to format values in table, universal formatting language
 + Add a Bar Chart widget type
-+ Add a Line Chart widget type
 
 Development History
 -------------------
 
++ [9/28/2017] Add a Line Chart widget type
 + [9/22/2017] Redefine the timeline in Chronology tab to always show the first column in -24 hours to the second one.
 + [8/29/2017] Parallel dashboard rendering, clustering.
 + [8/29/2017] Distinguish time zones for different users according to their browser setup. Add an option to fix the time zone for the specific dashboard.
