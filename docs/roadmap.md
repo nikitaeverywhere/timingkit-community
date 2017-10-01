@@ -14,6 +14,7 @@ Development Roadmap
 -------------------
 
 + Add ability to create/edit/delete calendars
++ Compactize calendars on Chronology page
 + Create a logical value for pivot table rows/columns (primarily for charts). Charts should draw on axes by logical value but not by index, which works only for some cases.
    + Some dimensions, like week number of the year may have, for example, Week 1 at the end of the year, which is correct, but leads to unexpected drawings while drawing charts due to Week 1 is being sorted to the beginning.
    + When many of the rows are empty and some groups are skipped due to no events appear in there, charts axes scales may be different and not consistent. This should also be an option.
