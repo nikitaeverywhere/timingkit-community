@@ -14,18 +14,19 @@ Development Roadmap
 -------------------
 
 + Add ability to create/edit/delete calendars
-+ Compactize calendars on Chronology page
 + Create a logical value for pivot table rows/columns (primarily for charts). Charts should draw on axes by logical value but not by index, which works only for some cases.
    + Some dimensions, like week number of the year may have, for example, Week 1 at the end of the year, which is correct, but leads to unexpected drawings while drawing charts due to Week 1 is being sorted to the beginning.
    + When many of the rows are empty and some groups are skipped due to no events appear in there, charts axes scales may be different and not consistent. This should also be an option.
-+ Add ability to floor relative dates to month (year) beginning
-+ Add ability to sort values in table by columns/rows
-+ Add ability to format values in table, universal formatting language
++ Add ability to floor relative dates to month (also week, year) beginning
++ Add ability to sort values in the table by columns/rows
++ Add ability to format values in the table, introduce universal formatting language
 + Add a Bar Chart widget type
 
 Development History
 -------------------
 
++ [1/27/2017] Implement realtime event synchronization on the client (push synced events immediately)
++ [1/26/2017] Completely redesign Chronology page
 + [9/28/2017] Add a Line Chart widget type
 + [9/22/2017] Redefine the timeline in Chronology tab to always show the first column in -24 hours to the second one.
 + [8/29/2017] Parallel dashboard rendering, clustering.
